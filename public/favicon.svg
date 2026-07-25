@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">CareRelay</title>
+  <rect width="64" height="64" rx="14" fill="#123b3b"/>
+  <rect x="13" y="29" width="27" height="15" rx="6" fill="#a7e8d5"/>
+  <rect x="24" y="17" width="27" height="15" rx="6" fill="#72ceb5"/>
+  <circle cx="49" cy="15" r="5" fill="#f0b14a"/>
+</svg>

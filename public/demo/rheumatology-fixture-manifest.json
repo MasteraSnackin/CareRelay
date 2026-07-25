@@ -1,0 +1,231 @@
+{
+  "schemaVersion": 2,
+  "fixtureId": "rheumatology",
+  "reference": "CR-RHE-4101",
+  "generatedAt": "2026-06-22T09:00:00.000Z",
+  "generator": {
+    "source": "scripts/generate-fixture.ts",
+    "pdfLibrary": "pdf-lib@1.17.1",
+    "rasteriser": {
+      "name": "Ghostscript",
+      "requiredVersion": "10.06.0",
+      "pageResolutionDpi": 144,
+      "socialCardResolutionDpi": 72
+    }
+  },
+  "pageSize": {
+    "unit": "points",
+    "width": 595.28,
+    "height": 841.89
+  },
+  "markers": [
+    "Synthetic letter for product testing. It is not connected to a real patient or NHS organisation.",
+    "INDEPENDENT SYNTHETIC DOCUMENT - NO REAL PATIENT"
+  ],
+  "files": {
+    "pdf": {
+      "path": "rheumatology-referral-synthetic.pdf",
+      "mediaType": "application/pdf",
+      "bytes": 6553,
+      "sha256": "87a10dfd1401f6ee538a74aa1ffa767b1b6fcf3426fe0938335a16242f2d0924"
+    },
+    "pageOnePng": {
+      "path": "rheumatology-page-1.png",
+      "mediaType": "image/png",
+      "bytes": 78195,
+      "sha256": "d70d0bb53c0e28ea55a55a51746a9100703f754e0fdfe26e355792034c6cc230",
+      "width": 1191,
+      "height": 1684
+    },
+    "pageTwoPng": {
+      "path": "rheumatology-page-2.png",
+      "mediaType": "image/png",
+      "bytes": 77188,
+      "sha256": "98867aefaefdca528469508d91f3eb2d05df9597a6058c13d79c08abc4d2ccde",
+      "width": 1191,
+      "height": 1684
+    },
+    "socialCardPng": {
+      "path": "../care-relay-social-card.png",
+      "mediaType": "image/png",
+      "bytes": 30666,
+      "sha256": "c1b6dc71a0323d3c8fdaadc1e66916f5d2bef7ee0d4eb22d1b2c1ce71465ef11",
+      "width": 1200,
+      "height": 630
+    }
+  },
+  "passages": [
+    {
+      "id": "rheumatology:p1:heading",
+      "page": 1,
+      "role": "heading",
+      "text": "Rheumatology Referral Service — 22 June 2026",
+      "rectangles": [
+        {
+          "x": 0.090714,
+          "y": 0.173764,
+          "width": 0.687811,
+          "height": 0.031358
+        }
+      ]
+    },
+    {
+      "id": "rheumatology:p1:salutation",
+      "page": 1,
+      "role": "salutation",
+      "text": "Dear Sample Patient,",
+      "rectangles": [
+        {
+          "x": 0.090714,
+          "y": 0.298987,
+          "width": 0.173302,
+          "height": 0.019128
+        }
+      ]
+    },
+    {
+      "id": "rheumatology:p1:introduction",
+      "page": 1,
+      "role": "introduction",
+      "text": "Thank you for speaking with your GP practice about your referral.",
+      "rectangles": [
+        {
+          "x": 0.090714,
+          "y": 0.347687,
+          "width": 0.544684,
+          "height": 0.019128
+        }
+      ]
+    },
+    {
+      "id": "rheumatology:p1:received",
+      "page": 1,
+      "role": "received",
+      "text": "We confirm that your referral was received on 16 June 2026.",
+      "rectangles": [
+        {
+          "x": 0.090714,
+          "y": 0.416579,
+          "width": 0.49605,
+          "height": 0.019128
+        }
+      ]
+    },
+    {
+      "id": "rheumatology:p1:not-accepted",
+      "page": 1,
+      "role": "status",
+      "text": "This letter does not mean your referral has been accepted and no appointment has been booked.",
+      "rectangles": [
+        {
+          "x": 0.104153,
+          "y": 0.48666,
+          "width": 0.764222,
+          "height": 0.019128
+        },
+        {
+          "x": 0.104153,
+          "y": 0.508634,
+          "width": 0.068698,
+          "height": 0.019128
+        }
+      ]
+    },
+    {
+      "id": "rheumatology:p1:review",
+      "page": 1,
+      "role": "next-step",
+      "text": "A member of the clinical team will review the information supplied by your GP practice.",
+      "rectangles": [
+        {
+          "x": 0.090714,
+          "y": 0.598313,
+          "width": 0.728131,
+          "height": 0.019128
+        }
+      ]
+    },
+    {
+      "id": "rheumatology:p2:heading",
+      "page": 2,
+      "role": "heading",
+      "text": "What happens next",
+      "rectangles": [
+        {
+          "x": 0.090714,
+          "y": 0.171198,
+          "width": 0.30597,
+          "height": 0.034494
+        }
+      ]
+    },
+    {
+      "id": "rheumatology:p2:follow-up",
+      "page": 2,
+      "role": "follow-up",
+      "text": "If you have not heard from us by 14 July 2026, please contact our referral administration team on 020 7946 0000.",
+      "rectangles": [
+        {
+          "x": 0.104153,
+          "y": 0.293048,
+          "width": 0.776477,
+          "height": 0.019128
+        },
+        {
+          "x": 0.104153,
+          "y": 0.315022,
+          "width": 0.203224,
+          "height": 0.019128
+        }
+      ]
+    },
+    {
+      "id": "rheumatology:p2:reference",
+      "page": 2,
+      "role": "reference",
+      "text": "Please quote referral reference CR-RHE-4101 whenever you contact us.",
+      "rectangles": [
+        {
+          "x": 0.090714,
+          "y": 0.407077,
+          "width": 0.590489,
+          "height": 0.019128
+        }
+      ]
+    },
+    {
+      "id": "rheumatology:p2:boundary",
+      "page": 2,
+      "role": "boundary",
+      "text": "This letter contains administrative information only. Follow any separate advice already given to you by a healthcare professional.",
+      "rectangles": [
+        {
+          "x": 0.090714,
+          "y": 0.512791,
+          "width": 0.789963,
+          "height": 0.019128
+        },
+        {
+          "x": 0.090714,
+          "y": 0.533578,
+          "width": 0.270344,
+          "height": 0.019128
+        }
+      ]
+    },
+    {
+      "id": "rheumatology:p2:sign-off",
+      "page": 2,
+      "role": "sign-off",
+      "text": "Rheumatology Referral Administration",
+      "rectangles": [
+        {
+          "x": 0.090714,
+          "y": 0.619694,
+          "width": 0.344964,
+          "height": 0.019128
+        }
+      ]
+    }
+  ]
+}
